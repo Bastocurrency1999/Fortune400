@@ -1,0 +1,312 @@
+@font-face{
+	font-family:Sriracha-Regular;
+	src:url("font/Sriracha-Regular.ttf")format("truetype");
+}
+body{
+	width:100%;
+	margin:0;
+	padding:0;
+    background:#47A1ED;
+}
+*{
+	font-family:Sriracha-Regular; 
+}
+h3{
+	text-align:center;
+	font-weight:bold;
+	letter-spacing:1px;
+	font-size:2vw;
+	font-weight:bold;
+	font-size:2vw;
+    color:#47A1ED;
+    text-shadow:0px 0px 0px black;
+	/*color:white;*/
+}
+label{
+    letter-spacing:1px;
+   color:#47A1ED;
+   text-shadow:0px 0px 0px black;
+}
+span{
+    color:red;
+}
+div.form-wrapper{
+    border:2px solid #fff;
+	width:34%;
+	margin:40px auto;
+	height:820px;
+}
+div.form-wrapper .form{
+	border:hidden;
+	height:820px;
+    padding:20px;
+	background:#fff;
+
+}
+div.form-wrapper .form form input{
+    width:100%;
+    font-size:1.5vw;
+    padding:5px;
+}
+div.form-wrapper .form form input[type=text]{
+    border:none;
+    border-bottom:2px solid grey;
+}
+div.form-wrapper .form form input[type=text]:focus{
+    border-bottom:2px solid blue;
+    transition:1s;
+    outline:none;
+    color:#47A1ED;
+}
+div.form-wrapper .form form input[type=email]{
+    border:none;
+    border-bottom:2px solid grey;
+}
+div.form-wrapper .form form input[type=email]:focus{
+    border-bottom:2px solid blue;
+    transition:1s;
+    outline:none;
+    color:#47A1ED;
+}
+div.form-wrapper .form form input[type=date]{
+    border:none;
+   border-bottom:2px solid grey;
+}
+div.form-wrapper .form form input[type=date]:focus{
+    border-bottom:2px solid blue;
+    transition:1s;
+    outline:none;
+}
+div.form-wrapper .form form input[type=password]{
+    border:none;
+    border-bottom:2px solid grey;
+}
+div.form-wrapper .form form input[type=password]:focus{
+    border-bottom:2px solid blue;
+    transition:1s;
+    outline:none;
+    color:#47A1ED;
+}
+div.form-wrapper .form form input[type=submit]{
+    background:#47A1ED;
+    border:none;
+    font-size:1.8vw;
+    font-weight:bold;
+    color:white;
+    padding:7px;
+    border-radius:10px;
+}
+div.form-wrapper .form form input[type=submit]:hover{
+    background:rgb(71, 161, 237,.9);
+     border:none;
+}
+div.form-wrapper .form form select{
+    width:100%;
+    font-size:1.5vw;
+    padding:5px;
+    border:none;
+    border-bottom:2px solid grey;
+}
+div.form-wrapper .form form select:focus{
+    border-bottom:2px solid blue;
+    transition:1s;
+    outline:none;
+}
+/*==================================== media queries for smaller device =========================*/
+/*======================================= start ========================================*/
+@media(max-width:320px){
+body{}
+h3{
+  font-size:5vw;
+}
+div.form-wrapper{
+   border:2px solid #fff;
+   width:95%;
+   height:auto;
+}
+label{
+   letter-spacing:1px;
+   color:#47A1ED;
+   font-size:4vw;
+   text-shadow:0px 0px 0px black;
+}
+div.form-wrapper .form form input{
+	font-size:4vw;
+}
+div.form-wrapper .form form select{
+	font-size:5vw;
+	border:2px solid lightgrey;
+	background:#fff;
+	border-radius:10px;
+}
+div.form-wrapper .form form input[type=date]{
+	border:2px solid lightgrey;
+	background:#fff;   
+	border-radius:10px;
+}
+div.form-wrapper .form form input[type=submit]{
+	padding:15px;
+	font-size:5vw;
+}
+}
+/*======================================= End ========================================*/
+
+/*======================================= start ========================================*/
+@media(min-width:320px) and (max-width:375px){
+h3{
+  font-size:7vw;
+}
+div.form-wrapper{
+   border:2px solid #fff;
+   width:95%;
+   height:auto;
+}
+div.form-wrapper .form{
+	height:auto;
+}
+label{
+   letter-spacing:1px;
+   color:#47A1ED;
+   font-size:4vw;
+   text-shadow:0px 0px 0px black;
+}
+div.form-wrapper .form form input{
+	font-size:6vw;
+}
+div.form-wrapper .form form select{
+	font-size:3vw;
+	border:2px solid lightgrey;
+	background:#fff;
+	border-radius:10px;
+}
+div.form-wrapper .form form input[type=date]{
+	border:2px solid lightgrey;
+	background:#fff;   
+	border-radius:10px;
+}
+div.form-wrapper .form form input[type=submit]{
+	padding:15px;
+	font-size:5vw;
+}
+}
+/*======================================= End ========================================*/
+
+/*======================================= start ========================================*/
+@media(min-width:375px) and (max-width:425px){
+h3{
+  font-size:7vw;
+}
+div.form-wrapper{
+   border:2px solid #fff;
+   width:95%;
+   height:auto;
+}
+div.form-wrapper .form{
+	height:auto;
+}
+label{
+   letter-spacing:1px;
+   color:#47A1ED;
+   font-size:4vw;
+   text-shadow:0px 0px 0px black;
+}
+div.form-wrapper .form form input{
+	font-size:5vw;
+}
+div.form-wrapper .form form select{
+	font-size:5vw;
+	border:2px solid lightgrey;
+	background:#fff;
+	border-radius:10px;
+}
+div.form-wrapper .form form input[type=date]{
+	border:2px solid lightgrey;
+	background:#fff; 
+	border-radius:10px;
+}
+div.form-wrapper .form form input[type=submit]{
+	padding:15px;
+	font-size:5vw;
+}
+}
+/*======================================= End ========================================*/
+
+/*======================================= start ========================================*/
+@media(min-width:425px) and (max-width:551px){
+h3{
+  font-size:4vw;
+}
+div.form-wrapper{
+   border:2px solid #fff;
+   width:80%;
+   height:auto;
+}
+div.form-wrapper .form{
+	height:auto;
+}
+label{
+   letter-spacing:1px;
+   color:#47A1ED;
+   font-size:4vw;
+   text-shadow:0px 0px 0px black;
+}
+div.form-wrapper .form form input{
+	font-size:4vw;
+}
+div.form-wrapper .form form select{
+	font-size:3vw;
+	border:2px solid lightgrey;
+	background:#fff;
+	border-radius:10px;
+}
+div.form-wrapper .form form input[type=date]{
+	border:2px solid lightgrey;
+	background:#fff;   
+	border-radius:10px;
+}
+div.form-wrapper .form form input[type=submit]{
+	padding:15px;
+	font-size:4vw;
+}	
+}
+/*======================================= End ========================================*/
+
+/*======================================= start ========================================*/
+@media(min-width:551px) and (max-width:768px){
+h3{
+  font-size:4vw;
+}
+div.form-wrapper{
+   border:2px solid #fff;
+   width:75%;
+   height:auto;
+}
+div.form-wrapper .form{
+	height:auto;
+}
+label{
+   letter-spacing:1px;
+   color:#47A1ED;
+   font-size:3vw;
+   text-shadow:0px 0px 0px black;
+}
+div.form-wrapper .form form input{
+	font-size:3vw;
+}
+div.form-wrapper .form form select{
+	font-size:3vw;
+	border:2px solid lightgrey;
+	background:#fff;
+	border-radius:10px;
+}
+div.form-wrapper .form form input[type=date]{
+	border:2px solid lightgrey;
+	background:#fff;   
+	border-radius:10px;
+}
+div.form-wrapper .form form input[type=submit]{
+	padding:15px;
+	font-size:3vw;
+}	
+}
+/*======================================= End ========================================*/

@@ -1,0 +1,119 @@
+@font-face{
+	font-family:Sriracha-Regular;
+	src:url("font/Sriracha-Regular.ttf")format("truetype");
+}
+body{
+	width:100%;
+	margin:0;
+	padding:0;
+	background:lightgrey;
+}
+*{
+	font-family:Sriracha-Regular; 
+}
+h3{
+	text-align:center;
+	font-weight:bold;
+	letter-spacing:1px;
+	font-size:2vw;
+	font-weight:bold;
+	font-size:2vw;
+	color:white;
+	text-shadow:1px 1px 1px black;
+}
+div.form-wrapper{
+	border:hidden;
+	width:35%;
+	margin:40px auto;
+	height:610px;
+}
+div.form-wrapper .form{
+	border:hidden;
+	padding-top:12px;
+	padding-left:40px;
+	padding-right:40px;
+	padding-bottom:20px;
+	height:610px;
+	background:#47A1ED;
+	border-bottom-right-radius:50px;
+	border-top-left-radius:50px;
+}
+div.form-wrapper .form form input{
+    width:100%;
+    font-size:1.5vw;
+    padding:5px;
+}
+div.form-wrapper .form form input[type=text]{
+    border-radius:10px;
+    border:2px solid white;
+    outline:none;
+}
+div.form-wrapper .form form input[type=text]:focus{
+    background:#47A1ED;
+    border:2px solid white;
+    transition:900ms;
+    padding-left:20px;
+    color:white;
+}
+div.form-wrapper .form form input[type=email]{
+    border-radius:10px;
+   border:2px solid white;
+    outline:none;	
+}
+div.form-wrapper .form form input[type=email]:focus{
+    background:#47A1ED;
+    border:2px solid white;
+    transition:900ms;
+    padding-left:20px;
+    color:white;
+}
+div.form-wrapper .form form input[type=date]{
+    border-radius:10px;
+    border:2px solid white;
+    outline:none;	
+}
+div.form-wrapper .form form input[type=password]{
+    border-radius:10px;
+   border:2px solid white;
+    outline:none;	
+}
+div.form-wrapper .form form input[type=password]:focus{
+    background:#47A1ED;
+    border:2px solid white;
+    transition:900ms;
+    padding-left:20px;
+    color:white;
+}
+div.form-wrapper .form form input[type=submit]{
+    border-radius:20px;
+    border:2px solid white;
+    outline:none;
+    padding:7px;
+    font-size:1.8vw;	
+    font-weight:bold;
+    color:#47A1ED;
+    letter-spacing:2px;
+    text-shadow:1px 1px 1px white;
+}
+div.form-wrapper .form form input[type=submit]:hover{
+    background:#47A1ED;
+    transition:900ms;
+    border:2px solid white;
+    color:white;
+    text-shadow:none;
+}
+div.form-wrapper .form form select{
+    width:100%;
+    font-size:1.5vw;
+    padding:5px;
+    border-radius:10px;
+   border:hidden;
+    outline:none;	
+}
+div.form-wrapper .form form select:focus{
+    background:#47A1ED;
+    border:2px solid white;
+    transition:900ms;
+    padding-left:20px;
+    color:white;	
+}
